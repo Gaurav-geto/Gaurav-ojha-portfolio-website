@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificates | Gaurav Ojha</title>
+
+<link rel="stylesheet" href="certificates.css">
+
+<style>
+
+body{
+    background:#05010D;
+    padding:50px;
+}
+
+.gallery-title{
+    text-align:center;
+    color:#8B5CF6;
+    margin-bottom:50px;
+    font-size:3rem;
+}
+
+.certificate-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(350px,1fr));
+
+    gap:30px;
+}
+
+.certificate-card{
+
+    background:rgba(18,13,34,.8);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.3s;
+}
+
+.certificate-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 0 30px rgba(139,92,246,.35);
+}
+
+.certificate-card img{
+
+    width:100%;
+
+    height:250px;
+
+    object-fit:cover;
+}
+
+.certificate-content{
+
+    padding:20px;
+}
+
+.certificate-content h3{
+
+    color:#8B5CF6;
+
+    margin-bottom:10px;
+}
+
+.btn{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    padding:10px 20px;
+
+    background:#8B5CF6;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+<a href="index.html" class="back-btn">
+← Back to Portfolio
+</a>
+
+<h1 class="gallery-title">
+Certificate Gallery
+</h1>
+
+<p class="gallery-subtitle">
+Professional Certifications, Internships & Achievements
+</p>
+
+
+<div class="certificate-grid">
+
+    <!-- InternPe -->
+    <div class="certificate-card">
+        <img src="assets/certificates/internpe.jpg" alt="InternPe">
+        <div class="certificate-content">
+            <h3>Embedded Systems Internship - InternPe</h3>
+            <p>Completed an internship in Embedded Systems, gaining practical experience in microcontrollers and hardware interfacing.</p>
+            <a href="assets/certificates/internpe.pdf" target="_blank" class="btn">
+                View Certificate
+            </a>
+        </div>
+    </div>
+
+    <!-- ChatGPT 101 -->
+    <div class="certificate-card">
+        <img src="assets/certificates/chatgpt101.jpg" alt="ChatGPT 101">
+        <div class="certificate-content">
+            <h3>ChatGPT 101</h3>
+            <p>Learned AI fundamentals, prompt engineering, and practical applications of ChatGPT.</p>
+            <a href="assets/certificates/chatgpt101.pdf" target="_blank" class="btn">
+                View Certificate
+            </a>
+        </div>
+    </div>
+
+    <!-- Generative AI -->
+    <div class="certificate-card">
+        <img src="assets/certificates/generative-ai.jpg" alt="Generative AI">
+        <div class="certificate-content">
+            <h3>Introduction to Generative AI</h3>
+            <p>Explored Generative AI concepts, LLMs, and modern AI technologies.</p>
+            <a href="assets/certificates/generative-ai.pdf" target="_blank" class="btn">
+                View Certificate
+            </a>
+        </div>
+    </div>
+
+    <!-- IIT Indore Robo Wars -->
+    <div class="certificate-card">
+        <img src="assets/certificates/iit-indore-robowars.jpg" alt="Robo Wars">
+        <div class="certificate-content">
+            <h3>Robo Wars - IIT Indore</h3>
+            <p>Participated in a national-level robotics combat competition showcasing engineering and teamwork.</p>
+            <a href="assets/certificates/iit-indore-robowars.pdf" target="_blank" class="btn">
+                View Certificate
+            </a>
+        </div>
+    </div>
+
+    <!-- Add remaining certificates here -->
+
+
+
+<!-- Thiranex Data Analyst -->
+<div class="certificate-card">
+    <img src="assets/certificates/thiranex.jpg" alt="Thiranex Data Analyst">
+    <div class="certificate-content">
+        <h3>Data Analyst Program - Thiranex</h3>
+        <p>Completed training in data analytics, visualization, and business intelligence.</p>
+        <a href="assets/certificates/thiranex.pdf" target="_blank" class="btn">
+            View Certificate
+        </a>
+    </div>
+</div>
+
+<!-- Psychometric Calculator -->
+<div class="certificate-card">
+    <img src="assets/certificates/psychometric-calculator.jpg" alt="Psychometric Calculator">
+    <div class="certificate-content">
+        <h3>Psychometric Calculator</h3>
+        <p>Developed a psychometric assessment calculator demonstrating analytical and programming skills.</p>
+        <a href="assets/certificates/psychometric-calculator.pdf" target="_blank" class="btn">
+            View Certificate
+        </a>
+    </div>
+</div>
+
+<!-- College Level Robo War -->
+<div class="certificate-card">
+    <img src="assets/certificates/college-robowar.jpg" alt="College Robo War">
+    <div class="certificate-content">
+        <h3>College Level Robo War Competition</h3>
+        <p>Designed and competed with a combat robot in an inter-college robotics event.</p>
+        <a href="assets/certificates/college-robowar.pdf" target="_blank" class="btn">
+            View Certificate
+        </a>
+    </div>
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+<script src="certificates.js"></script>
+</body>
+</html>

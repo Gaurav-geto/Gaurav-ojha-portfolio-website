@@ -1,0 +1,164 @@
+body{
+    margin:0;
+    padding:40px;
+    font-family:'Poppins',sans-serif;
+    background:#05010D;
+    color:white;
+    overflow-x:hidden;
+}
+
+#particles-js{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+
+.gallery-title{
+    text-align:center;
+    font-family:'Orbitron',sans-serif;
+    font-size:3rem;
+    color:#8B5CF6;
+    margin-bottom:15px;
+}
+
+.gallery-subtitle{
+    text-align:center;
+    color:#cfc7ea;
+    margin-bottom:60px;
+}
+
+.certificate-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(350px,1fr));
+
+    gap:30px;
+
+    max-width:1400px;
+
+    margin:auto;
+}
+
+.certificate-card{
+
+    background:rgba(18,13,34,.75);
+
+    backdrop-filter:blur(14px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+    box-shadow:
+    0 0 25px rgba(139,92,246,.15);
+}
+
+.certificate-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 0 40px rgba(139,92,246,.4);
+}
+
+.certificate-card img{
+
+    width:100%;
+
+    height:240px;
+
+    object-fit:cover;
+
+    display:block;
+}
+
+.certificate-content{
+
+    padding:25px;
+}
+
+.certificate-content h3{
+
+    color:#8B5CF6;
+
+    margin-bottom:10px;
+}
+
+.certificate-content p{
+
+    color:#cfc7ea;
+
+    margin-bottom:20px;
+}
+
+.view-btn{
+
+    display:inline-block;
+
+    padding:12px 22px;
+
+    text-decoration:none;
+
+    border-radius:12px;
+
+    background:
+    linear-gradient(
+    135deg,
+    #8B5CF6,
+    #A855F7
+    );
+
+    color:white;
+
+    transition:.3s;
+}
+
+.view-btn:hover{
+
+    transform:translateY(-3px);
+}
+
+.back-btn{
+
+    position:fixed;
+
+    top:25px;
+
+    left:25px;
+
+    text-decoration:none;
+
+    color:white;
+
+    padding:12px 20px;
+
+    border-radius:12px;
+
+    background:rgba(139,92,246,.2);
+
+    border:1px solid rgba(139,92,246,.4);
+
+    z-index:1000;
+}
+
+/* Scroll Animation */
+
+.hidden{
+    opacity:0;
+    transform:translateY(50px);
+    transition:.8s;
+}
+
+.show{
+    opacity:1;
+    transform:translateY(0);
+}
